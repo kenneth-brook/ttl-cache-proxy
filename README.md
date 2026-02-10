@@ -22,8 +22,6 @@ This is a reusable pattern for reducing cost/latency when proxying a real upstre
 - Keep service responsive during upstream turbulence (stale-if-error)
 - Make behavior visible and demo-friendly (headers + metrics)
 
-If you can ship this cleanly, you can ship API gateways, ingestion workers, and “real” production services.
-
 ---
 
 ## Features
