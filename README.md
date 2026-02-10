@@ -1,5 +1,16 @@
 # ttl-cache-proxy
 
+![CI](https://github.com/kenneth-brook/ttl-cache-proxy/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/kenneth-brook/ttl-cache-proxy)
+![Release](https://img.shields.io/github/v/release/kenneth-brook/ttl-cache-proxy)
+![Node](https://img.shields.io/badge/node-22%2B-brightgreen)
+![TypeScript](https://img.shields.io/badge/typescript-5.x-blue)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![Fastify](https://img.shields.io/badge/fastify-5.x-black)
+![Redis](https://img.shields.io/badge/redis-optional-red)
+[![codecov](https://codecov.io/gh/kenneth-brook/ttl-cache-proxy/branch/main/graph/badge.svg)](https://codecov.io/gh/kenneth-brook/ttl-cache-proxy)
+
+
 A production-minded Node.js/TypeScript proxy service that fronts the **NASA Image and Video Library API** and adds:
 
 - **Cache-aside TTL caching** (default 10 minutes for search, 24 hours for assets)
