@@ -1,0 +1,14 @@
+{
+  "name": "ttl-cache-proxy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test",
+    "test:coverage": "node --test --coverage --coverage-reporter=lcov --coverage-reporter=text",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
